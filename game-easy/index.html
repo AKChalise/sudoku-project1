@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Easy Game · Chalise Sudoku</title>
+  <link rel="stylesheet" href="../assets/css/common.css">
+</head>
+<body>
+<nav class="navbar" role="navigation" aria-label="Primary">
+  <div class="nav-left">
+    <a class="brand" href="/"><img src="../assets/img/logo.svg" alt="Logo"><span>Chalise Sudoku</span></a>
+  </div>
+  <div class="nav-right">
+    <div class="nav">
+      <a href="/">Home</a>
+      <a href="/selection/">Select</a>
+      <a href="/game-hard/">Hard</a>
+      <a href="/game-easy/" aria-current="page">Easy</a>
+      <a href="/rules/">Rules</a>
+      <a href="/highscores/">Scores</a>
+      <a href="/login/">Login</a>
+      <a href="/register/">Register</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <section class="panel">
+    <h1>Easy Game</h1>
+    <div class="meta mt-10">
+      <span class="badge">Difficulty: Easy</span>
+      <span class="badge">Grid: 6×6</span>
+      <span class="badge"><span class="timer-dot"></span> Timer: 04:20</span>
+    </div>
+
+    <!-- Full 6×6 Sudoku Grid -->
+    <div class="sudoku6 mt-16" role="grid" aria-label="Sudoku board 6×6">
+      <!-- Row 1 -->
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r1 c1"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r1 c2"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r1 c3"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r1 c4"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r1 c5"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r1 c6"></div>
+
+      <!-- Row 2 -->
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r2 c1"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r2 c2"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r2 c3"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r2 c4"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r2 c5"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r2 c6"></div>
+
+      <!-- Row 3 -->
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r3 c1"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r3 c2"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r3 c3"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r3 c4"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r3 c5"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r3 c6"></div>
+
+      <!-- Row 4 -->
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r4 c1"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r4 c2"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r4 c3"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r4 c4"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r4 c5"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r4 c6"></div>
+
+      <!-- Row 5 -->
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r5 c1"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r5 c2"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r5 c3"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r5 c4"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r5 c5"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r5 c6"></div>
+
+      <!-- Row 6 -->
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r6 c1"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r6 c2"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r6 c3"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r6 c4"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r6 c5"></div>
+      <div class="cell"><input type="text" inputmode="numeric" maxlength="1" pattern="[1-9]" aria-label="r6 c6"></div>
+    </div>
+
+    <div class="row mt-16">
+      <a class="button ghost" href="/selection/">Back to selection</a>
+      <a class="button" href="/rules/">Rules</a>
+    </div>
+  </section>
+</main>
+</body>
+</html>
