@@ -3,8 +3,10 @@
 
 This repo contains a **non-interactive mock** of a Sudoku website built **without JavaScript**.
 
-Github link:https://github.com/AKChalise/cs5610_sudoku_project1
+Github link:https://akchalise.github.io/sudoku-project1/
 ---
+
+
 
 ##  Pages
 
